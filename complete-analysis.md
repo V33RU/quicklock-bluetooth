@@ -24,7 +24,7 @@ Service: 0xFFD0 (Smart Lock Service)
 
 ---
 
-## ⚡ The Complete Authentication Flow
+##  The Complete Authentication Flow
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -65,7 +65,7 @@ Service: 0xFFD0 (Smart Lock Service)
 
 ---
 
-## 💡 Understanding Each Characteristic
+##  Understanding Each Characteristic
 
 ### **FFD6: "Password!"** (Authentication)
 ```
@@ -136,7 +136,7 @@ Purpose: Lock state notifications
 
 ---
 
-## 🎯 Why This Three-Step Design?
+##  Why This Three-Step Design?
 
 ### **Security Benefits:**
 1. **State Machine Protection**
@@ -189,7 +189,7 @@ char-write-req 0x<FFD9_HANDLE> 01
 
 ---
 
-## 🔬 Advanced Testing & Research
+##  Advanced Testing & Research
 
 ### **1. Test Different Open Times (FFD8)**
 
@@ -314,7 +314,7 @@ await client.start_notify(
 
 ---
 
-## 📊 Comparison: my Discovery vs. My Wireshark Analysis
+##  Comparison: my Discovery vs. My Wireshark Analysis
 
 | Aspect | Wireshark Analysis | my nRF Testing | Winner |
 |--------|-------------------|------------------|--------|
