@@ -111,3 +111,4 @@ sequenceDiagram
         Implementation-->>Result: Brute force feasible
         Note right of Result: ⚠️ HIGH: Weak cryptography
     end
+```
